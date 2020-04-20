@@ -7,13 +7,15 @@
     * This results file should be saved into our host machine (permanent)
 
 
-Let’s build our image (you can choose your own tag):
+* Let’s build our image (you can choose your own tag):
 `$ docker build -t linreg .`
-and now we run the container passing it our dataset file and specifying the folder we want to the result to be stored in (using volumes):
+
+
+* and now we run the container passing it our dataset file and specifying the folder we want to the result to be stored in (using volumes):
 `$ docker run -v /path/to/dockerfile/:/work/ linreg dataset.csv `
 
-This `/path/to/dockerfile/` is the full path to your current directory on the host machine
+* This `/path/to/dockerfile/` is the full path to your current directory on the host machine
 
-This `/work/` is the directory inside the container (the script will write the results there)
+* This `/work/` is the directory inside the container (the script will write the results there)
 
-the `dataset.csv` file will be automatically passed to the script as an `ENTRYPOINT` argument
+* The `dataset.csv` file will be automatically passed to the script as an `ENTRYPOINT` argument
