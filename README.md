@@ -1,6 +1,6 @@
 # Building and using a Docker Image/Container
 
-* On Jan 5 2021 during the Oreilly/Pearson course the images did not build successfully .. I have changed Dockerfile to use Ubuntu 20.04 instead of 18.04 and all works nicely now
+* On Jan 5th 2021 during the Oreilly/Pearson course the images did not build successfully .. I have changed Dockerfile to use Ubuntu 20.04 instead of 18.04 and all works nicely now
 * This example helps you create an image that:
     * is based on Ubuntu 20.04 (It has Python 3 already installed)
     * We will update Ubuntu and install the sklearn, pandas packages on it
