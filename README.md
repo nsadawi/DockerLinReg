@@ -1,7 +1,7 @@
 # Building and using a Docker Image/Container
 
 * This example helps you create an image that:
-    * is based on Ubuntu 18.04 (It has Python 3 already installed)
+    * is based on Ubuntu 20.04 (It has Python 3 already installed)
     * We will update Ubuntu and install the sklearn, pandas packages on it
     * Write a Python script that receives a CSV file, perform some calculations on it and write the results into a results file (e.g. `dataset.csv.out`)
     * This results file should be saved into our host machine (permanent)
