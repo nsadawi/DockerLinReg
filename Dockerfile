@@ -1,5 +1,5 @@
-# from Ubuntu 20.04 base image
-FROM ubuntu:20.04
+# from Ubuntu 22.04 base image
+FROM ubuntu:22.04
 
 # provide your contact info if you wish
 MAINTAINER Noureddin Sadawi, myemail@mail.com
